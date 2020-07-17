@@ -1,0 +1,89 @@
+.titulo{
+    text-align: center;
+    background-color: rgb(177, 41, 41);
+    color: rgb(129, 175, 102);
+    margin-top: 15px;
+
+}
+.h3{
+    text-align: center;
+    background-color: blue;
+    color: floralwhite;
+    margin-top: 15px;
+
+}
+
+.mainindex{
+    background-color: rgb(30, 128, 62);
+}
+header{
+    background-color: darkorchid;
+}
+
+.texto{
+    text-align: left;
+}
+.parrafo{
+    text-align: justify;
+}
+.mainbiografia{
+    background-color: blue;
+}
+footer{
+    text-align: center;
+    background-color: darkgray;
+    color: darkgreen;
+    margin-top: 30px;
+}
+html {
+	font-size: 16px;
+}
+
+.social-bar {
+	position: fixed;
+	right: 0;
+	top: 35%;
+	font-size: 1.5rem;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	z-index: 100;
+}
+
+.icon {
+	color: rosybrown;
+	text-decoration: none;
+	padding: .7rem;
+	display: flex;
+	transition: all .5s;
+}
+
+.icon-facebook {
+	background: #2E406E;
+}
+
+.icon-whatsapp {
+	background: #339DC5;
+}
+
+.icon-google-plus2{
+	background: #E83028;
+}
+
+.icon-instagram {
+	background: #3F60A5;
+}
+
+.icon:first-child {
+	border-radius: 1rem 0 0 0;
+}
+
+.icon:last-child {
+	border-radius: 0 0 0 1rem;
+}
+
+.icon:hover {
+	padding-right: 3rem;
+	border-radius: 1rem 0 0 1rem;
+	box-shadow: 0 0 .5rem rgba(0, 0, 0, 0.42);
+}
