@@ -2,10 +2,10 @@
 let objetoAJAX= new XMLHttpRequest();
 
 //2 url del servidor
-let url="https://api.spotify.com/v1/artists/5lwmRuXgjX8xIwlnauTZIP/top-tracks?country=us" ;
+let url="https://api.spotify.com/v1/artists/5lwmRuXgjX8xIwlnauTZIP/top-tracks?country=us";
 
 //3.saber si necesito permiso  
-let token= " Bearer BQDFC3TEVKC5GM_Xi-WKHs_mPkWqKItZa2qhdBDufEbYCw7malsGN3LV9LaCNSWwgLhE44biDNL1FRM68bkku5PO1ksZRyEEe1lOxfbDW1BylWIWDCX8IdYl_p2kqIi_Pqyzz-VoL79Cnsnm2JnHKH7yFb9Ogx0";
+let token= "Bearer BQDSWFzEMbvV3HvBkFdbUfteqdYB9KtqSgvjLGfmRZAhBBWJERORPeJ6LNvs_Qc0dxCMJ9-lq1hPomjptiQCKIyRV69qBjgdKi3XosVlEyaY7YOb2wsiW7OKUkuVPEshG4-2H9Wfe0QkavmXQvcLo4SPDXMpobU";
 //4. abre la conexiòn
 objetoAJAX.open('get',url,true);
 
